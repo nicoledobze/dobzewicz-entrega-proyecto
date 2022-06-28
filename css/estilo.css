@@ -1,0 +1,251 @@
+/* GOOGLE FONTS */
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap";
+
+/* RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* BASE */
+.tamLogo {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 150px;
+}
+
+.fraseInicio {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #2C514C;
+}
+
+.tituloPrincipal {
+    display: flex;
+    align-items: center;
+    background-color: #DAA89B;
+    justify-content:space-evenly;
+    height: 100px;
+    text-transform: uppercase;
+
+}
+
+.colorNavbar {
+    background-color: #AE847E;
+}
+
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+    list-style-type: none; 
+    text-decoration: none;
+    width:auto;
+    font-size: large;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #2C514C;
+}
+
+/* MENÚ */
+.card-title {
+    color: #2C514C;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder; 
+}
+  
+.card-text {
+    color: black;
+    font-family: "Roboto Mono", monospace; 
+}
+
+.card-img-top:hover {
+    filter: grayscale(100%); 
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+}
+  
+
+/* NOSOTRAS */
+p {
+    margin: 15px;
+    padding: 15px;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+/* CREÁ */
+.tituloCrea {
+    color: #2C514C;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic solid;
+    padding: 15px; 
+}
+  
+.textoCrea {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    padding: 10px; 
+}
+
+.list-group {
+	margin: 15px;
+	padding: 15px;
+}
+.list-group-item {
+	color: black;
+	font-family: 'Roboto Mono', monospace;;
+    border: 0;
+}
+
+.texModal {
+    font-family: "Roboto Mono", monospace;
+    color: black; 
+}
+
+.botCrear {
+    background-color: #DAA89B;
+}
+
+/* ENVÍOS */
+.tituloEnvios {
+	color: #2C514C;
+	font-family:"Roboto Mono", monospace ;
+	font-style: italic solid;
+	padding: 15px;
+}
+
+
+.textoEnvios {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    padding: 10px;
+}
+
+
+.ubicacion {
+    border-radius: 4px; 
+}
+
+/* CONTACTO */
+#contacto {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic;
+}
+
+h3 {
+    color: #2C514C;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic solid;
+    padding: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+}
+
+.campo {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.botonForm {
+    color: black;
+    background-color: #AE847E;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:200px;
+    margin: auto;
+}
+
+/* .colorBoton {
+    background-color: #AE847E;
+    width: 200px;
+    font-family: "Roboto Mono", monospace;
+    color: #2C514C;
+} */
+
+.instagram {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none; 
+}
+
+/* BOTÓN WHATSAPP */
+.botonWhatsApp img {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #DAA89B;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+
+/* ANIMACIONES */
+.instagram {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.sub {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color: #2C514C;
+}
+
+.sub:hover,
+.sub:focus {
+    background-size: 100% 2px;
+    color: black;
+}
+

@@ -1,0 +1,12 @@
+/*EXTEND*/
+
+.tituloEnvios {
+    color: #2C514C;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic solid;
+    padding: 15px;
+}
+
+.tituloCrea {
+    @extend .tituloEnvios;
+}

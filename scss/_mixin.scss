@@ -1,0 +1,10 @@
+@mixin subtitulo {
+    color: #2C514C;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic solid;
+    padding: 10px;
+}
+
+h3 {
+    @include subtitulo;
+}

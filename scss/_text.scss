@@ -1,0 +1,80 @@
+h3 {
+	color: #2C514C;
+	font-family: $fuente;
+	font-style: italic solid;
+	padding: 10px;
+}
+
+.fraseInicio {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.tituloPrincipal {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	border: $border;
+	background-color: #DAA89B;
+	text-transform: uppercase;
+	font-family: $fuente;
+}
+
+.textoNosotras {
+	margin: 15px;
+	padding: 15px;
+	color: $color-texto;
+	font-family: $fuente;
+}
+
+.card-title {
+	color: #2C514C;
+	font-family:$fuente;
+	font-weight: bolder;
+}
+.card-text {
+	color: $color-texto;
+	font-family: $fuente;
+	margin: 10px;
+	padding: 10px;
+}
+
+.tituloEnvios {
+	color: #2C514C;
+	font-family: $fuente;
+	font-style: italic solid;
+	padding: 15px;
+}
+
+.textoEnvios {
+	color: $color-texto;
+	font-family: $fuente;
+	padding: 10px;
+}
+
+.tituloCrea {
+	color: #2C514C;
+	font-family: $fuente;
+	font-style: italic solid;
+	padding: 15px;
+}
+
+.textoCrea {
+	color: $color-texto;
+	font-family: $fuente;
+	padding: 10px;
+}
+
+.texModal {
+	font-family: $fuente;
+	color: $color-texto;
+}
+
+.instagram {
+	color: $color-texto;
+	font-family: $fuente;
+	text-decoration: none;
+}

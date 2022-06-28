@@ -1,0 +1,10 @@
+/*MAP-GET*/
+$estilo:(color:black,margen:15px);
+
+.textoNosotras {
+    color: map-get($estilo,color);
+    margin: map-get($estilo,margen);
+    padding: 15px;
+    font-family: "Roboto Mono", monospace; 
+
+}
